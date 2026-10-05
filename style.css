@@ -11,7 +11,7 @@ nav a:hover,nav a.actif{border-bottom-color:var(--noir)}
 .hero h1{font-size:clamp(4rem,16vw,12rem);line-height:.9;font-weight:400}
 .hero p{font-size:clamp(1.4rem,3vw,2.2rem);margin-top:16px}
 .photo-large{border-bottom:2px solid var(--blanc);height:70vh;background:#222}
-.photo-large img{width:100%;height:100%;object-fit:cover;object-position:center bottom;display:block}
+.photo-large img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
 .bloc{display:grid;grid-template-columns:1fr 1fr;border-bottom:2px solid var(--blanc)}
 .bloc:nth-of-type(even) .photo{order:2}
 .photo{background:#222;min-height:360px;border-right:2px solid var(--blanc)}
