@@ -38,3 +38,5 @@ nav a:hover,nav a.actif{border-bottom-color:var(--noir)}
 .galerie img{width:100%;height:100%;object-fit:cover;display:block}
 footer{background:var(--blanc);color:var(--noir);text-align:center;padding:20px}
 @media(max-width:700px){.bloc{grid-template-columns:1fr}.bloc:nth-of-type(even) .photo{order:0}.photo,.bloc:nth-of-type(even) .photo{border:0;border-bottom:2px solid var(--blanc)}}
+@media(max-width:900px){.galerie{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:500px){.galerie{grid-template-columns:1fr}}
