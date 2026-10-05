@@ -4,7 +4,7 @@ body{background:var(--noir);color:var(--blanc);font-family:'Bebas Neue',sans-ser
 a{color:inherit}
 header{background:var(--blanc);color:var(--noir);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;padding:14px 5vw;position:sticky;top:0;z-index:10}
 header .logo{font-size:2rem;text-decoration:none;display:flex;align-items:center;gap:12px}
-header .logo img{height:10px;width:auto}
+header .logo img{height:25px;width:auto}
 nav{display:flex;gap:28px;flex-wrap:wrap}
 nav a{text-decoration:none;font-size:1.4rem;border-bottom:3px solid transparent}
 nav a:hover,nav a.actif{border-bottom-color:var(--noir)}
