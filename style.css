@@ -22,7 +22,7 @@ nav a:hover,nav a.actif{border-bottom-color:var(--noir)}
 .texte h2{font-size:clamp(2.5rem,6vw,4.5rem);font-weight:400;line-height:1}
 .texte p{max-width:34ch;font-size:1.4rem}
 .titre-page{padding:8vh 5vw;border-bottom:2px solid var(--blanc);font-size:clamp(3rem,9vw,7rem);line-height:1;font-weight:400}
-.grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));border-left:2px solid var(--blanc)}
+.grille{display:grid;grid-template-columns:repeat(3,1fr);border-left:2px solid var(--blanc)}
 .produit{border-right:2px solid var(--blanc);border-bottom:2px solid var(--blanc);display:flex;flex-direction:column}
 .produit .photo{min-height:0;aspect-ratio:4/5;border:0;border-bottom:2px solid var(--blanc)}
 .produit .infos{padding:18px;display:flex;flex-direction:column;gap:8px;flex:1}
@@ -40,3 +40,5 @@ footer{background:var(--blanc);color:var(--noir);text-align:center;padding:20px}
 @media(max-width:700px){.bloc{grid-template-columns:1fr}.bloc:nth-of-type(even) .photo{order:0}.photo,.bloc:nth-of-type(even) .photo{border:0;border-bottom:2px solid var(--blanc)}}
 @media(max-width:900px){.galerie{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:500px){.galerie{grid-template-columns:1fr}}
+@media(max-width:900px){.grille{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:500px){.grille{grid-template-columns:1fr}}
