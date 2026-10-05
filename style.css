@@ -1,0 +1,39 @@
+:root{--noir:#000;--blanc:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--noir);color:var(--blanc);font-family:'Bebas Neue',sans-serif;font-size:1.25rem;letter-spacing:.04em;line-height:1.4}
+a{color:inherit}
+header{background:var(--blanc);color:var(--noir);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;padding:14px 5vw;position:sticky;top:0;z-index:10}
+header .logo{font-size:2rem;text-decoration:none}
+nav{display:flex;gap:28px;flex-wrap:wrap}
+nav a{text-decoration:none;font-size:1.4rem;border-bottom:3px solid transparent}
+nav a:hover,nav a.actif{border-bottom-color:var(--noir)}
+.hero{text-align:center;padding:12vh 5vw;border-bottom:2px solid var(--blanc)}
+.hero h1{font-size:clamp(4rem,16vw,12rem);line-height:.9;font-weight:400}
+.hero p{font-size:clamp(1.4rem,3vw,2.2rem);margin-top:16px}
+.photo-large{border-bottom:2px solid var(--blanc);height:70vh;background:#222}
+.photo-large img{width:100%;height:100%;object-fit:cover;display:block}
+.bloc{display:grid;grid-template-columns:1fr 1fr;border-bottom:2px solid var(--blanc)}
+.bloc:nth-of-type(even) .photo{order:2}
+.photo{background:#222;min-height:360px;border-right:2px solid var(--blanc)}
+.bloc:nth-of-type(even) .photo{border-right:0;border-left:2px solid var(--blanc)}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.texte{padding:6vw;display:flex;flex-direction:column;justify-content:center;gap:14px}
+.texte h2{font-size:clamp(2.5rem,6vw,4.5rem);font-weight:400;line-height:1}
+.texte p{max-width:34ch;font-size:1.4rem}
+.titre-page{padding:8vh 5vw;border-bottom:2px solid var(--blanc);font-size:clamp(3rem,9vw,7rem);line-height:1;font-weight:400}
+.grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));border-left:2px solid var(--blanc)}
+.produit{border-right:2px solid var(--blanc);border-bottom:2px solid var(--blanc);display:flex;flex-direction:column}
+.produit .photo{min-height:0;aspect-ratio:4/5;border:0;border-bottom:2px solid var(--blanc)}
+.produit .infos{padding:18px;display:flex;flex-direction:column;gap:8px;flex:1}
+.produit h3{font-size:1.8rem;font-weight:400}
+.produit p{font-size:1.1rem;opacity:.85}
+.prix{font-size:1.6rem}
+.btn{margin-top:auto;display:block;text-align:center;background:var(--blanc);color:var(--noir);padding:10px;text-decoration:none;font-size:1.4rem;border:2px solid var(--blanc)}
+.btn:hover{background:var(--noir);color:var(--blanc)}
+.collab{padding:8vh 5vw;max-width:900px;display:flex;flex-direction:column;gap:20px}
+.collab p{font-size:1.5rem;max-width:40ch}
+.galerie{columns:3 260px;column-gap:0;border-left:2px solid var(--blanc)}
+.galerie figure{break-inside:avoid;border-right:2px solid var(--blanc);border-bottom:2px solid var(--blanc);background:#222}
+.galerie img{width:100%;display:block;min-height:200px}
+footer{background:var(--blanc);color:var(--noir);text-align:center;padding:20px}
+@media(max-width:700px){.bloc{grid-template-columns:1fr}.bloc:nth-of-type(even) .photo{order:0}.photo,.bloc:nth-of-type(even) .photo{border:0;border-bottom:2px solid var(--blanc)}}
