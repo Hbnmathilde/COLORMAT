@@ -44,3 +44,7 @@ footer{background:var(--blanc);color:var(--noir);text-align:center;padding:20px}
 @media(max-width:500px){.grille{grid-template-columns:1fr}}
 .hero .sous-titre{font-size:clamp(1rem,1.8vw,1.4rem);font-style:italic;margin:14px auto 0;max-width:60ch;opacity:.85}
 .btn-hero{display:inline-block;margin-top:32px;padding:14px 40px;font-size:1.6rem}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+.filtres{display:flex;gap:16px;flex-wrap:wrap;padding:24px 5vw;border-bottom:2px solid var(--blanc)}
+.filtres .btn{margin-top:0;display:inline-block;padding:10px 40px}
+.titre-section{padding:5vh 5vw;border-bottom:2px solid var(--blanc);font-size:clamp(2.5rem,6vw,4.5rem);font-weight:400;line-height:1}
