@@ -48,3 +48,10 @@ html{scroll-behavior:smooth;scroll-padding-top:90px}
 .filtres{display:flex;gap:16px;flex-wrap:wrap;padding:24px 5vw;border-bottom:2px solid var(--blanc)}
 .filtres .btn{margin-top:0;display:inline-block;padding:10px 40px}
 .titre-section{padding:5vh 5vw;border-bottom:2px solid var(--blanc);font-size:clamp(2.5rem,6vw,4.5rem);font-weight:400;line-height:1}
+.barre-filtres{display:flex;flex-wrap:wrap;align-items:center;gap:14px 40px;padding:20px 5vw;border-bottom:2px solid var(--blanc)}
+.groupe{display:flex;flex-wrap:wrap;gap:8px}
+.filtre{background:var(--noir);color:var(--blanc);border:2px solid var(--blanc);font-family:inherit;font-size:1.3rem;letter-spacing:inherit;padding:6px 22px;cursor:pointer}
+.filtre:hover,.filtre.actif{background:var(--blanc);color:var(--noir)}
+#compteur{margin-left:auto;opacity:.7}
+.vide{grid-column:1/-1;padding:8vh 5vw;font-size:1.6rem}
+.btn.epuise{opacity:.4;cursor:not-allowed}
