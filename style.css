@@ -55,9 +55,9 @@ html{scroll-behavior:smooth;scroll-padding-top:90px}
 #compteur{margin-left:auto;opacity:.7}
 .vide{grid-column:1/-1;padding:8vh 5vw;font-size:1.6rem}
 .btn.epuise{opacity:.4;cursor:not-allowed}
-.collab-intro{padding:8vh 5vw;border-bottom:2px solid var(--blanc);display:flex;flex-direction:column;gap:18px;align-items:flex-start}
-.collab-question{font-size:clamp(1.8rem,3.5vw,3rem);line-height:1.15;max-width:28ch}
-.collab-slogan{font-size:clamp(2.2rem,5vw,4.5rem);line-height:1}
+.collab-intro{padding:6vh 5vw;border-bottom:2px solid var(--blanc);display:flex;flex-direction:column;gap:14px;align-items:flex-start}
+.collab-question{font-size:clamp(1rem,1.8vw,1.5rem);line-height:1.2;max-width:50ch}
+.collab-slogan{font-size:clamp(1.2rem,2.5vw,2.2rem);line-height:1.1}
 .collab-ligne{display:grid;grid-template-columns:1fr 2fr;border-bottom:2px solid var(--blanc)}
 .collab-ligne .photo{min-height:0;aspect-ratio:4/5;border-right:2px solid var(--blanc)}
 .collab-ligne .texte{padding:4vw;justify-content:center}
