@@ -5,7 +5,7 @@ const produits=[
   {nom:"Doudoune tifre",prix:"80 €",description:"Doudoune tigre M",image:"images/produit3.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_3",public:"adulte",type:"veste"},
   {nom:"Veste kaki main",prix:"70 €",description:"Veste kaki main / fleur M",image:"images/produit4.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_4",public:"adulte",type:"veste"},
   {nom:"Veste bleu ciel",prix:"70 €",description:"Veste bleue poirier L",image:"images/produit5.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_5",public:"adulte",type:"veste"},
-  {nom:"Veste kaki tigre",prix:"70 €",description:"Veste kaki tigre M/L",image:"images/produit6.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_6",public:"adulte",type:"tshirt"},
+  {nom:"Veste kaki tigre",prix:"70 €",description:"Veste kaki tigre M/L",image:"images/produit6.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_6",public:"adulte",type:"veste"},
   {nom:"Produit 7",prix:"00 €",description:"Décris ton produit ici.",image:"images/produit7.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_7",public:"adulte",type:"tshirt"},
   {nom:"Produit 8",prix:"00 €",description:"Décris ton produit ici.",image:"images/produit8.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_8",public:"adulte",type:"veste"},
   {nom:"Produit 9",prix:"00 €",description:"Décris ton produit ici.",image:"images/produit9.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_9",public:"adulte",type:"veste"},
