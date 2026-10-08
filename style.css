@@ -1,16 +1,25 @@
+/* ===== BASE ===== */
 :root{--noir:#000;--blanc:#fff}
 *{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
 body{background:var(--noir);color:var(--blanc);font-family:'Bebas Neue',sans-serif;font-size:1.25rem;letter-spacing:.04em;line-height:1.4}
 a{color:inherit}
+
+/* ===== BANDEAU ===== */
 header{background:var(--blanc);color:var(--noir);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;padding:14px 5vw;position:sticky;top:0;z-index:10}
 header .logo{font-size:2rem;text-decoration:none;display:flex;align-items:center;gap:12px}
 header .logo img{height:35px;width:auto}
 nav{display:flex;gap:28px;flex-wrap:wrap}
 nav a{text-decoration:none;font-size:1.4rem;border-bottom:3px solid transparent}
 nav a:hover,nav a.actif{border-bottom-color:var(--noir)}
+footer{background:var(--blanc);color:var(--noir);text-align:center;padding:20px}
+
+/* ===== ACCUEIL ===== */
 .hero{text-align:center;padding:12vh 5vw;border-bottom:2px solid var(--blanc)}
 .hero h1{font-size:clamp(4rem,16vw,12rem);line-height:.9;font-weight:400}
 .hero p{font-size:clamp(1.4rem,3vw,2.2rem);margin-top:16px}
+.hero .sous-titre{font-size:clamp(1rem,1.8vw,1.4rem);font-style:italic;margin:14px auto 0;max-width:60ch;opacity:.85}
+.btn-hero{display:inline-block;margin-top:32px;padding:14px 40px;font-size:1.6rem}
 .photo-large{border-bottom:2px solid var(--blanc);height:70vh;background:#222}
 .photo-large img{width:100%;height:100%;object-fit:cover;object-position:center bottom;display:block}
 .bloc{display:grid;grid-template-columns:1fr 1fr;border-bottom:2px solid var(--blanc)}
@@ -21,7 +30,25 @@ nav a:hover,nav a.actif{border-bottom-color:var(--noir)}
 .texte{padding:6vw;display:flex;flex-direction:column;justify-content:center;gap:14px}
 .texte h2{font-size:clamp(2.5rem,6vw,4.5rem);font-weight:400;line-height:1}
 .texte p{max-width:34ch;font-size:1.4rem}
+
+/* ===== TITRES DE PAGES ET DE SECTIONS ===== */
 .titre-page{padding:8vh 5vw;border-bottom:2px solid var(--blanc);font-size:clamp(3rem,9vw,7rem);line-height:1;font-weight:400}
+.titre-section{padding:5vh 5vw;border-bottom:2px solid var(--blanc);font-size:clamp(2.5rem,6vw,4.5rem);font-weight:400;line-height:1}
+
+/* ===== BOUTONS ===== */
+.btn{margin-top:auto;display:block;text-align:center;background:var(--blanc);color:var(--noir);padding:10px;text-decoration:none;font-size:1.4rem;border:2px solid var(--blanc)}
+.btn:hover{background:var(--noir);color:var(--blanc)}
+.btn.epuise{opacity:.4;cursor:not-allowed}
+.filtres{display:flex;gap:16px;flex-wrap:wrap;padding:24px 5vw;border-bottom:2px solid var(--blanc)}
+.filtres .btn{margin-top:0;display:inline-block;padding:10px 40px}
+
+/* ===== SHOP ===== */
+.barre-filtres{display:flex;flex-wrap:wrap;align-items:center;gap:14px 40px;padding:20px 5vw;border-bottom:2px solid var(--blanc)}
+.groupe{display:flex;flex-wrap:wrap;gap:8px}
+.filtre{background:var(--noir);color:var(--blanc);border:2px solid var(--blanc);font-family:inherit;font-size:1.3rem;letter-spacing:inherit;padding:6px 22px;cursor:pointer}
+.filtre:hover,.filtre.actif{background:var(--blanc);color:var(--noir)}
+#compteur{margin-left:auto;opacity:.7}
+.vide{grid-column:1/-1;padding:8vh 5vw;font-size:1.6rem}
 .grille{display:grid;grid-template-columns:repeat(3,1fr);border-left:2px solid var(--blanc)}
 .produit{border-right:2px solid var(--blanc);border-bottom:2px solid var(--blanc);display:flex;flex-direction:column}
 .produit .photo{min-height:0;aspect-ratio:4/5;border:0;border-bottom:2px solid var(--blanc)}
@@ -29,32 +56,8 @@ nav a:hover,nav a.actif{border-bottom-color:var(--noir)}
 .produit h3{font-size:1.8rem;font-weight:400}
 .produit p{font-size:1.1rem;opacity:.85}
 .prix{font-size:1.6rem}
-.btn{margin-top:auto;display:block;text-align:center;background:var(--blanc);color:var(--noir);padding:10px;text-decoration:none;font-size:1.4rem;border:2px solid var(--blanc)}
-.btn:hover{background:var(--noir);color:var(--blanc)}
-.collab{padding:8vh 5vw;max-width:900px;display:flex;flex-direction:column;gap:20px}
-.collab p{font-size:1.5rem;max-width:40ch}
-.galerie{display:grid;grid-template-columns:repeat(3,1fr);border-left:2px solid var(--blanc)}
-.galerie figure{border-right:2px solid var(--blanc);border-bottom:2px solid var(--blanc);background:#222;aspect-ratio:4/5}
-.galerie img{width:100%;height:100%;object-fit:cover;display:block}
-footer{background:var(--blanc);color:var(--noir);text-align:center;padding:20px}
-@media(max-width:700px){.bloc{grid-template-columns:1fr}.bloc:nth-of-type(even) .photo{order:0}.photo,.bloc:nth-of-type(even) .photo{border:0;border-bottom:2px solid var(--blanc)}}
-@media(max-width:900px){.galerie{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:500px){.galerie{grid-template-columns:1fr}}
-@media(max-width:900px){.grille{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:500px){.grille{grid-template-columns:1fr}}
-.hero .sous-titre{font-size:clamp(1rem,1.8vw,1.4rem);font-style:italic;margin:14px auto 0;max-width:60ch;opacity:.85}
-.btn-hero{display:inline-block;margin-top:32px;padding:14px 40px;font-size:1.6rem}
-html{scroll-behavior:smooth;scroll-padding-top:90px}
-.filtres{display:flex;gap:16px;flex-wrap:wrap;padding:24px 5vw;border-bottom:2px solid var(--blanc)}
-.filtres .btn{margin-top:0;display:inline-block;padding:10px 40px}
-.titre-section{padding:5vh 5vw;border-bottom:2px solid var(--blanc);font-size:clamp(2.5rem,6vw,4.5rem);font-weight:400;line-height:1}
-.barre-filtres{display:flex;flex-wrap:wrap;align-items:center;gap:14px 40px;padding:20px 5vw;border-bottom:2px solid var(--blanc)}
-.groupe{display:flex;flex-wrap:wrap;gap:8px}
-.filtre{background:var(--noir);color:var(--blanc);border:2px solid var(--blanc);font-family:inherit;font-size:1.3rem;letter-spacing:inherit;padding:6px 22px;cursor:pointer}
-.filtre:hover,.filtre.actif{background:var(--blanc);color:var(--noir)}
-#compteur{margin-left:auto;opacity:.7}
-.vide{grid-column:1/-1;padding:8vh 5vw;font-size:1.6rem}
-.btn.epuise{opacity:.4;cursor:not-allowed}
+
+/* ===== COLLAB ===== */
 .collab-intro{padding:6vh 5vw;border-bottom:2px solid var(--blanc);display:flex;flex-direction:column;gap:14px;align-items:flex-start}
 .collab-question{font-size:clamp(1rem,1.8vw,1.5rem);line-height:1.2;max-width:50ch}
 .collab-slogan{font-size:clamp(1.2rem,2.5vw,2.2rem);line-height:1.1}
@@ -63,15 +66,6 @@ html{scroll-behavior:smooth;scroll-padding-top:90px}
 .collab-ligne .texte{padding:4vw;justify-content:center}
 .collab-ligne h3{font-size:clamp(2rem,4vw,3.2rem);font-weight:400;line-height:1}
 .collab-ligne .texte p{max-width:50ch;font-size:clamp(1.3rem,2vw,1.7rem)}
-@media(max-width:700px){.collab-ligne{grid-template-columns:1fr}.collab-ligne .photo{border-right:0;border-bottom:2px solid var(--blanc)}}
-@media(max-width:700px){
-  header{padding:12px 5vw;gap:8px}
-  header .logo{font-size:1.6rem}
-  nav{gap:16px}
-  nav a{font-size:1.2rem}
-  .hero{padding:8vh 6vw}
-  .photo-large{height:45vh}
-  .bloc .photo,.bloc:nth-of-type(even) .photo{order:0;min-height:0;aspect-ratio:4/5;border:0;border-bottom:2px solid var(--blanc)}
-  .bloc .texte{order:1;padding:8vw 6vw}
-  .texte p{max-width:none;font-size:1.3rem}
-}
+
+/* ===== GALERIE ===== */
+.galerie{display:grid;grid-template-columns:repea
