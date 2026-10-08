@@ -64,3 +64,14 @@ html{scroll-behavior:smooth;scroll-padding-top:90px}
 .collab-ligne h3{font-size:clamp(2rem,4vw,3.2rem);font-weight:400;line-height:1}
 .collab-ligne .texte p{max-width:50ch;font-size:clamp(1.3rem,2vw,1.7rem)}
 @media(max-width:700px){.collab-ligne{grid-template-columns:1fr}.collab-ligne .photo{border-right:0;border-bottom:2px solid var(--blanc)}}
+@media(max-width:700px){
+  header{padding:12px 5vw;gap:8px}
+  header .logo{font-size:1.6rem}
+  nav{gap:16px}
+  nav a{font-size:1.2rem}
+  .hero{padding:8vh 6vw}
+  .photo-large{height:45vh}
+  .bloc .photo,.bloc:nth-of-type(even) .photo{order:0;min-height:0;aspect-ratio:4/5;border:0;border-bottom:2px solid var(--blanc)}
+  .bloc .texte{order:1;padding:8vw 6vw}
+  .texte p{max-width:none;font-size:1.3rem}
+}
