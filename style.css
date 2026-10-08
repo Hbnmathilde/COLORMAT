@@ -112,7 +112,11 @@ footer{background:var(--blanc);color:var(--noir);text-align:center;padding:20px}
   .prix{font-size:1.2rem}
   .produit .btn{font-size:1.1rem;padding:8px}
 
-  /* Collab : photo et texte alignés sur chaque ligne */
+    /* Collab : photo et texte alignés sur chaque ligne */
   .collab-intro{padding:5vh 6vw}
   .collab-ligne{grid-template-columns:minmax(0,2fr) minmax(0,3fr)}
-  .collab-ligne .photo{position:relative;aspect-ratio:auto;m
+  .collab-ligne .photo{position:relative;aspect-ratio:auto;min-height:220px;border-right:2px solid var(--blanc)}
+  .collab-ligne .photo img{position:absolute;inset:0}
+  .collab-ligne .texte{padding:4vw;gap:6px}
+  .collab-ligne h3{font-size:1.15rem;line-height:1.05}
+  .collab-ligne .texte p{font-size:.8rem;line-height:1.25}
