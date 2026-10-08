@@ -68,4 +68,51 @@ footer{background:var(--blanc);color:var(--noir);text-align:center;padding:20px}
 .collab-ligne .texte p{max-width:50ch;font-size:clamp(1.3rem,2vw,1.7rem)}
 
 /* ===== GALERIE ===== */
-.galerie{display:grid;grid-template-columns:repea
+.galerie{display:grid;grid-template-columns:repeat(3,1fr);border-left:2px solid var(--blanc)}
+.galerie figure{border-right:2px solid var(--blanc);border-bottom:2px solid var(--blanc);background:#222;aspect-ratio:4/5}
+.galerie img{width:100%;height:100%;object-fit:cover;display:block}
+
+/* ===== TABLETTE ===== */
+@media(max-width:900px){
+  .grille{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .galerie{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
+/* ===== TÉLÉPHONE ===== */
+@media(max-width:700px){
+  /* Bandeau : logo, puis menu sur une seule ligne */
+  header{flex-direction:column;align-items:flex-start;gap:6px;padding:10px 5vw}
+  header .logo{font-size:1.5rem}
+  header .logo img{height:26px}
+  nav{width:100%;justify-content:space-between;flex-wrap:nowrap;gap:0}
+  nav a{font-size:1.15rem}
+
+  /* Titres */
+  .titre-page{padding:5vh 5vw}
+  .titre-section{padding:4vh 5vw;font-size:2rem}
+
+  /* Accueil */
+  .hero{padding:7vh 6vw}
+  .hero p{font-size:1.3rem}
+  .hero .sous-titre{font-size:.95rem}
+  .btn-hero{margin-top:22px;padding:12px;font-size:1.3rem}
+  .photo-large{height:40vh}
+  .bloc{grid-template-columns:minmax(0,1fr)}
+  .bloc .texte{order:0;padding:7vw 6vw;gap:10px;border-bottom:2px solid var(--blanc)}
+  .bloc .photo,.bloc:nth-of-type(even) .photo{order:1;min-height:0;aspect-ratio:1/1;border:0}
+  .texte h2{font-size:2.2rem}
+  .texte p{max-width:none;font-size:1.05rem;line-height:1.35}
+
+  /* Shop */
+  .barre-filtres{padding:14px 5vw;gap:10px 16px}
+  .filtre{font-size:1.05rem;padding:5px 14px}
+  .produit .infos{padding:12px;gap:6px}
+  .produit h3{font-size:1.25rem;line-height:1.1}
+  .produit p{font-size:.95rem;line-height:1.25}
+  .prix{font-size:1.2rem}
+  .produit .btn{font-size:1.1rem;padding:8px}
+
+  /* Collab : photo et texte alignés sur chaque ligne */
+  .collab-intro{padding:5vh 6vw}
+  .collab-ligne{grid-template-columns:minmax(0,2fr) minmax(0,3fr)}
+  .collab-ligne .photo{position:relative;aspect-ratio:auto;m
