@@ -1,6 +1,6 @@
 // MODIFIE ICI TES 20 PRODUITS (nom, prix, description, photo, lien Stripe)
 const produits=[
-  {nom:"Produit 1",prix:"30 €",description:Tshirt Madame Chan",image:"images/produit1.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_1",public:"adulte",type:"veste"},
+  {nom:"Produit 1",prix:"30 €",description:"Tshirt Madame Chan",image:"images/produit1.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_1",public:"adulte",type:"veste"},
   {nom:"Produit 2",prix:"00 €",description:"Décris ton produit ici.",image:"images/produit2.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_2",public:"adulte",type:"veste"},
   {nom:"Produit 3",prix:"00 €",description:"Décris ton produit ici.",image:"images/produit3.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_3",public:"adulte",type:"veste"},
   {nom:"Produit 4",prix:"00 €",description:"Décris ton produit ici.",image:"images/produit4.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_4",public:"adulte",type:"veste"},
