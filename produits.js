@@ -2,7 +2,7 @@
 const produits=[
   {nom:"Tshirt Madame Chan",prix:"35 €",description:"Tshirt Madame Chan",image:"images/produit1.jpg",stripe:"https://buy.stripe.com/3cIfZi2EX45pgIDfnwaEE00",public:"adulte",type:"tshirt"},
   {nom:"Veste corail",prix:"70 €",description:"Veste corail main / fleur M",image:"images/produit2.jpg",stripe:"https://buy.stripe.com/aFa9AU1ATatN2RN0sCaEE02",public:"adulte",type:"veste"},
-  {nom:"Doudoune tigre",prix:"80 €",description:"Doudoune tigre M",image:"images/produit3.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_3",public:"adulte",type:"veste"},
+  {nom:"Doudoune tigre",prix:"80 €",description:"Doudoune tigre M",image:"images/produit3.jpg",stripe:"https://buy.stripe.com/eVqcN63J1bxRboj2AKaEE03",public:"adulte",type:"veste"},
   {nom:"Veste kaki main",prix:"70 €",description:"Veste kaki main / fleur M",image:"images/produit4.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_4",public:"adulte",type:"veste"},
   {nom:"Veste bleu ciel",prix:"70 €",description:"Veste bleue poirier L",image:"images/produit5.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_5",public:"adulte",type:"veste"},
   {nom:"Veste kaki tigre",prix:"70 €",description:"Veste kaki tigre M/L",image:"images/produit6.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_6",public:"adulte",type:"veste"},
