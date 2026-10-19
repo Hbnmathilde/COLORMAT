@@ -1,7 +1,7 @@
 // MODIFIE ICI TES 20 PRODUITS (nom, prix, description, photo, lien Stripe)
 const produits=[
   {nom:"Tshirt Madame Chan",prix:"35 €",description:"Tshirt Madame Chan",image:"images/produit1.jpg",stripe:"https://buy.stripe.com/3cIfZi2EX45pgIDfnwaEE00",public:"adulte",type:"tshirt"},
-  {nom:"Veste corail",prix:"70 €",description:"Veste corail main M / fleur",image:"images/produit2.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_2",public:"adulte",type:"veste"},
+  {nom:"Veste corail",prix:"70 €",description:"Veste corail main / fleur M",image:"images/produit2.jpg",stripe:"https://buy.stripe.com/9B6bJ26Vd7hB7833EOaEE01",public:"adulte",type:"veste"},
   {nom:"Doudoune tifre",prix:"80 €",description:"Doudoune tigre M",image:"images/produit3.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_3",public:"adulte",type:"veste"},
   {nom:"Veste kaki main",prix:"70 €",description:"Veste kaki main / fleur M",image:"images/produit4.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_4",public:"adulte",type:"veste"},
   {nom:"Veste bleu ciel",prix:"70 €",description:"Veste bleue poirier L",image:"images/produit5.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_5",public:"adulte",type:"veste"},
