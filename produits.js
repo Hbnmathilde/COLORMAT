@@ -5,7 +5,7 @@ const produits=[
   {nom:"Doudoune tigre",prix:"80 €",description:"Taille M femme ou S homme - Sérigraphiée à la main",image:"images/produit3.jpg",stripe:"https://buy.stripe.com/eVqcN63J1bxRboj2AKaEE03",public:"adulte",type:"veste"},
   {nom:"Veste kaki main / fleur",prix:"70 €",description:"Taille M - Sérigraphiée à la main",image:"images/produit4.jpg",stripe:"https://buy.stripe.com/28E5kE6VdfO7fEz4ISaEE04",public:"adulte",type:"veste"},
   {nom:"Veste bleu ciel",prix:"70 €",description:"Veste bleue poirier L",image:"images/produit5.jpg",stripe:"https://buy.stripe.com/cNi9AU3J11XhfEz4ISaEE05",public:"adulte",type:"veste"},
-  {nom:"Veste kaki tigre",prix:"70 €",description:"Veste kaki tigre M/L",image:"images/produit6.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_6",public:"adulte",type:"veste"},
+  {nom:"Veste kaki tigre",prix:"70 €",description:"Veste kaki tigre M/L",image:"images/produit6.jpg",stripe:"https://buy.stripe.com/9B65kE4N58lFbojdfoaEE06",public:"adulte",type:"veste"},
   {nom:"Tshirt femme assise",prix:"35 €",description:"Tshirt Femme assise",image:"images/produit7.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_7",public:"adulte",type:"tshirt"},
   {nom:"Tshirt coeur",prix:"35 €",description:"Tshirt coeur",image:"images/produit8.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_8",public:"adulte",type:"tshirt"},
   {nom:"Tshirt femme en tailleur",prix:"35 €",description:"Tshirt femme en tailleur",image:"images/produit9.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_9",public:"adulte",type:"tshirt"},
