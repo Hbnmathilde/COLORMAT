@@ -17,7 +17,7 @@ const produits=[
   {nom:"Tshirt cube",prix:"35€",description:"",image:"images/produit15.jpg",stripe:"https://buy.stripe.com/14AcN6a7pdFZakfgrAaEE0f",public:"adulte",type:"tshirt"},
   {nom:"Tshirt inspi Matisse",prix:"35€",description:"",image:"images/produit16.jpg",stripe:"https://buy.stripe.com/5kQ9AUdjB8lFboj1wGaEE0g",public:"adulte",type:"tshirt"},
   {nom:"Tshirt Piment",prix:"35€",description:"",image:"images/produit17.jpg",stripe:"https://buy.stripe.com/9B65kE3J11Xhdwr8Z8aEE0h",public:"adulte",type:"tshirt"},
-  {nom:"Tshirt Danseuse",prix:"35€",description:"",image:"images/produit18.jpg",stripe:"https://buy.stripe.com/8x2cN65R9gSb3VRb7gaEE0i",public:"enfant",type:"tshirt"},
-  {nom:"Tshirt Montagne",prix:"35€",description:"Dessiné au crayon de couleur",image:"images/produit19.jpg",stripe:"https://buy.stripe.com/3cIfZi2EX59t1NJcbkaEE0j",public:"enfant",type:"tshirt"},
-  {nom:"Tshirt Tigre",prix:"35€",description:"",image:"images/produit20.jpg",stripe:"https://buy.stripe.com/cNi5kE7ZhdFZeAv7V4aEE0k",public:"enfant",type:"tshirt"}
+  {nom:"Tshirt Danseuse",prix:"35€",description:"",image:"images/produit18.jpg",stripe:"https://buy.stripe.com/8x2cN65R9gSb3VRb7gaEE0i",public:"adulte",type:"tshirt"},
+  {nom:"Tshirt Montagne",prix:"35€",description:"Dessiné au crayon de couleur",image:"images/produit19.jpg",stripe:"https://buy.stripe.com/3cIfZi2EX59t1NJcbkaEE0j",public:"adulte",type:"tshirt"},
+  {nom:"Tshirt Tigre",prix:"35€",description:"",image:"images/produit20.jpg",stripe:"https://buy.stripe.com/cNi5kE7ZhdFZeAv7V4aEE0k",public:"adulte",type:"tshirt"}
 ];
