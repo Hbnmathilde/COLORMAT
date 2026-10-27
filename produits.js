@@ -12,7 +12,7 @@ const produits=[
   {nom:"Veste enfant lion",prix:"25 €",description:"Veste enfant upcyclée, sérigraphiée et cousue main. Taille unique 5ans",image:"images/produit10.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_10",public:"enfant",type:"veste"},
   {nom:"Kway orange croco",prix:"25 €",description:"kway enfant upcyclé sérigraphié et cousu main. Taille unique 6 ans",image:"images/produit11.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_11",public:"enfant",type:"veste"},
   {nom:"Veste velour marron croco",prix:"25 €",description:"Veste enfant upcyclée, sérigraphiée et cousue main. Taille unique 5ans",image:"images/produit12.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_12",public:"enfant",type:"veste"},
-  {nom:"Sweat gros croco",prix:"25€",description:"Sweat enfant neuf, sérigraphiée et cousue main. Taille unique 5ans",image:"images/produit13.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_13",public:"enfant",type:"veste"},
+  {nom:"Sweat enfant croco",prix:"25€",description:"Sweat enfant neuf, sérigraphiée et cousue main. Taille unique 5ans",image:"images/produit13.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_13",public:"enfant",type:"veste"},
   {nom:"Veste velour rose croco",prix:"25 €",description:"Veste enfant upcyclée, sérigraphiée et cousue main. Taille unique 5ans",image:"images/produit14.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_14",public:"enfant",type:"veste"},
   {nom:"Tshirt cube",prix:"35€",description:"",image:"images/produit15.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_15",public:"adulte",type:"tshirt"},
   {nom:"Tshirt inspi Matisse",prix:"35€",description:"",image:"images/produit16.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_16",public:"adulte",type:"tshirt"},
