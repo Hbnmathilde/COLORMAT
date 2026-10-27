@@ -9,7 +9,7 @@ const produits=[
   {nom:"Tshirt femme assise",prix:"35 €",description:"",image:"images/produit7.jpg",stripe:"https://buy.stripe.com/00waEY93l8lFbojejsaEE07",public:"adulte",type:"tshirt"},
   {nom:"Tshirt coeur",prix:"35 €",description:"",image:"images/produit8.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_8",public:"adulte",type:"tshirt"},
   {nom:"Tshirt femme en tailleur",prix:"35 €",description:"Tshirt femme en tailleur",image:"images/produit9.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_9",public:"adulte",type:"tshirt"},
-  {nom:"Veste tigre",prix:"25 €",description:"Veste enfant upcyclée, sérigraphiée et cousue main. Taille unique 5ans",image:"images/produit10.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_10",public:"enfant",type:"veste"},
+  {nom:"Veste enfant lion",prix:"25 €",description:"Veste enfant upcyclée, sérigraphiée et cousue main. Taille unique 5ans",image:"images/produit10.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_10",public:"enfant",type:"veste"},
   {nom:"Kway orange croco",prix:"25 €",description:"kway enfant upcyclé sérigraphié et cousu main. Taille unique 6 ans",image:"images/produit11.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_11",public:"enfant",type:"veste"},
   {nom:"Veste velour marron croco",prix:"25 €",description:"Veste enfant upcyclée, sérigraphiée et cousue main. Taille unique 5ans",image:"images/produit12.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_12",public:"enfant",type:"veste"},
   {nom:"Sweat gros croco",prix:"25€",description:"Sweat enfant neuf, sérigraphiée et cousue main. Taille unique 5ans",image:"images/produit13.jpg",stripe:"https://buy.stripe.com/COLLE_TON_LIEN_13",public:"enfant",type:"veste"},
