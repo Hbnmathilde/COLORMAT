@@ -1,6 +1,6 @@
 // MODIFIE ICI TES 20 PRODUITS (nom, prix, description, photo, lien Stripe)
 const produits=[
-  {nom:"Tshirt Madame Chan",prix:"35 €",description:"Tshirt Madame Chan",image:"images/produit1.jpg",stripe:"https://buy.stripe.com/3cIfZi2EX45pgIDfnwaEE00",public:"adulte",type:"tshirt"},
+  {nom:"Tshirt Madame Chan",prix:"29 €",description:"Tshirt Madame Chan",image:"images/produit1.jpg",stripe:"https://buy.stripe.com/3cIfZi2EX45pgIDfnwaEE00",public:"adulte",type:"tshirt"},
   {nom:"Veste corail Main / fleur",prix:"70 €",description:"Taille M - Sérigraphiée et cousue main",image:"images/produit2.jpg",stripe:"https://buy.stripe.com/aFa9AU1ATatN2RN0sCaEE02",public:"adulte",type:"veste"},
   {nom:"Doudoune tigre",prix:"80 €",description:"Taille M femme ou S homme - Sérigraphiée à la main",image:"images/produit3.jpg",stripe:"https://buy.stripe.com/eVqcN63J1bxRboj2AKaEE03",public:"adulte",type:"veste"},
   {nom:"Veste kaki main / fleur",prix:"70 €",description:"Taille M - Sérigraphiée à la main",image:"images/produit4.jpg",stripe:"https://buy.stripe.com/28E5kE6VdfO7fEz4ISaEE04",public:"adulte",type:"veste"},
